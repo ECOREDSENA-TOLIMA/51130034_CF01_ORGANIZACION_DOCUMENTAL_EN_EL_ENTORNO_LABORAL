@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
-    descripcionCurso: 'BREVE_DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Principios archivísticos y Tablas de Retención Documental',
+    descripcionCurso:
+      'Toda empresa tiene la necesidad de contar con archivos organizados, por lo cual se deben tener claros los principios básicos del archivo, la clasificación documental y su importancia dentro de la organización; además, existe la obligatoriedad de elaborar tablas de retención documental como lo expresa la Ley 594 de 2000, más conocida como Ley General de Archivos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,13 +33,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Organización documental',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Archivo',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Estructura orgánica de la empresa',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Legislación archivística',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,13 +57,31 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Clasificación documental',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Series y subseries documentales',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Cuadro de clasificación documental',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Ciclo vital de los documentos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Tabla de Retención Documental',
         desarrolloContenidos: true,
       },
     ],
