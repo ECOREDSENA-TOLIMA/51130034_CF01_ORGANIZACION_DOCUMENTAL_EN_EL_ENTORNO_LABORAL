@@ -44,28 +44,34 @@
     
     p.mb-5(data-aos="fade-left") En cualquiera de las dos situaciones, el archivo facilita la acción de orden y clasificación para los documentos generados, ya sea por una o varias personas, o por un sistema social o institucional.
 
-    h4.titulo1.mb-4(data-aos="fade-left") Clases de archivo
+    .titulo.mb-5
+      img(src='@/assets/curso/temas/ico.png', alt='Imagen decorativa')
+      h5.mb-0 Clases de archivo
 
     p.mb-5(data-aos="fade-left") Los archivos se estructuran en una gran variedad o clases, algunos de los criterios clasificatorios definen los siguientes tipos:
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-xl-10.col-12
-        ImagenInfograficaB.color-acento-botones
+      .col-xl-10.col-12.desktop
+        ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/4.svg', alt='Imagen decorativa')
 
-          div(x="6%" y="43%" tooltip="Archivo público" numero="+")
-            h5 Archivo público:
+          .tarjeta.color-primario.p-3(x="6%" y="43%" numero="+")
+            .h5.mb-2 Archivo público:
             p Conjunto de documentos sistematizados y catalogados en archivos públicos que pertenecen a entidades oficiales — empresas estatales —, igualmente, se consideran como tales, aquellos que se disponen o se materializan por la prestación de un servicio público por entidades privadas.
 
-          div(x="8%" y="82.5%" tooltip="Archivo privado" numero="+")
-            h5 Archivo privado:
+          .tarjeta.color-primario.p-3(x="8%" y="82.5%" numero="+")
+            .h5.mb-2 Archivo privado:
             p Son los documentos generados o producidos por personas naturales o jurídicas de derecho privado.
 
-          div(x="94%" y="68%" tooltip="Archivo privado de interés público" numero="+")
-            h5 Archivo privado de interés público:
+          .tarjeta.color-primario.p-3(x="94%" y="68%" numero="+")
+            .h5.mb-2 Archivo privado de interés público:
             p Son aquellos archivos que, por el valor para la historia, la investigación, la ciencia o la cultura son de interés público, y pronunciado como tal por el legislador.
+            
+      .col-md-10.col-12.movil
+        figure
+          img(src='@/assets/curso/temas/tema1/4_.svg', alt='Imagen decorativa')
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido
@@ -79,10 +85,19 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
           span <i>Organigrama de una empresa.</i>
-        figure
+        figure.desktop
           img(src='@/assets/curso/temas/tema1/5.svg', alt='Imagen que contiene un organigrama que ejemplifica la estructura organizacional de una empresa, el cual tiene su respectivo director general, los vicepresidentes de diferentes departamentos y los roles de cada dependencia.')
+        .row.movil
+          .col-12
+            a.anexo(:href="obtenerLink('/downloads/Organigrama de una empresa.pdf')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <b>Descargar.</b> Organigrama de una empresa
     
-    h5.titulo1.mb-5(data-aos="fade-left") Documentación 
+    .titulo.mb-5
+      img(src='@/assets/curso/temas/ico.png', alt='Imagen decorativa')
+      h5.mb-0 Documentación
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12
