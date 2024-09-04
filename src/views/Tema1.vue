@@ -8,7 +8,9 @@
       h1 Organización documental
     p.mb-4(data-aos="fade-left") Es el conjunto de actividades que van encaminadas a clasificar, ordenar y describir los documentos de una entidad, con el fin de subsanar las dificultades producidas por la falta de información, generalmente causada por la pérdida de documentos; esto, como producto de la desorganización, ante la carencia de sistematización en la disposición final de los documentos generados por la institución.
 
-    h4.titulo1.mb-4(data-aos="fade-left") Importancia de la organización de documentos de archivos
+    .titulo.mb-5
+      img(src='@/assets/curso/temas/ico.png', alt='Imagen decorativa')
+      h5.mb-0 Importancia de la organización de documentos de archivos
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-up")
       .bloque-texto-g__img(
@@ -89,7 +91,7 @@
           img(src='@/assets/curso/temas/tema1/5.svg', alt='Imagen que contiene un organigrama que ejemplifica la estructura organizacional de una empresa, el cual tiene su respectivo director general, los vicepresidentes de diferentes departamentos y los roles de cada dependencia.')
         .row.movil
           .col-12
-            a.anexo(:href="obtenerLink('/downloads/Organigrama de una empresa.pdf')" target="_blank")
+            a.anexo(:href="obtenerLink('/downloads/Organigrama_de_una_empresa.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
