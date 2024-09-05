@@ -17,7 +17,6 @@
         p.mb-0 Todo documento que se integre permanentemente forma parte del histórico documental, constituyéndose en un componente valioso para investigación, lo cual es evidencia requerida de un proceso o procedimiento, evidencia testimonial o simplemente carácter informativo. Todo documento tiene un ciclo vital, el cual corresponde a etapas relacionadas con su permanencia en cada uno de los tres tipos de archivo, que debe tener cada institución en sus distintas dependencias:
 
     .col-sm.mb-5.mb-sm-0
-      h4 Listado ordenado cuadro color + separadores
       ol.lista-ol--cuadro.lista-ol--separador
         li 
           .lista-ol--cuadro__vineta.v--green
