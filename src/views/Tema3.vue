@@ -53,69 +53,70 @@
     p.mb-5(data-aos="fade-left") Todos los documentos poseen un valor que los identifica, dependiendo de la etapa del ciclo vital en el que se encuentran. Además, los valores primarios se dan en la primera y segunda etapa del ciclo vital, mientras que los valores secundarios corresponden al archivo histórico. De acuerdo con esta valoración, se consideran las siguientes facetas contenidas en los documentos:
 
     .tarjeta.p-4.tarjeta--BG03.px-4.px-md-5.pt-4.mb-5(data-aos="flip-up")
-      PasosB.color-acento-botones.p-4
-        .row.justify-content-center.align-items-center(titulo="")
-          .col-lg-6.order-lg-1.order-2
-            h5.mb-4 Valor administrativo
-            p.mb-0 Contiene un documento, una serie de documentos o un grupo documental, para la entidad productora, relacionado con el trámite o asunto que motivó su creación. Este valor se encuentra en todos los documentos producidos o recibidos en cualquier institución u organismo, para responder a una necesidad administrativa mientras dure su trámite. Son importantes por su utilidad referencial para la toma de decisiones y la planeación.
+      .tarjeta.tarjeta--blanca.p-4
+        PasosB.color-acento-botones.p-4
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Valor administrativo
+              p.mb-0 Contiene un documento, una serie de documentos o un grupo documental, para la entidad productora, relacionado con el trámite o asunto que motivó su creación. Este valor se encuentra en todos los documentos producidos o recibidos en cualquier institución u organismo, para responder a una necesidad administrativa mientras dure su trámite. Son importantes por su utilidad referencial para la toma de decisiones y la planeación.
 
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/temas/tema3/3.png', alt='Imagen decorativa')
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema3/3.png', alt='Imagen decorativa')
 
-        .row.justify-content-center.align-items-center(titulo="")
-          .col-lg-6.order-lg-1.order-2
-            h5.mb-4 Valor primario
-            p.mb-0 Valor que tiene el documento ya sea, administrativo, legal, fiscal, contable y técnico.
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Valor primario
+              p.mb-0 Valor que tiene el documento ya sea, administrativo, legal, fiscal, contable y técnico.
 
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/temas/tema3/4.png', alt='Imagen decorativa')
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema3/4.png', alt='Imagen decorativa')
 
-        .row.justify-content-center.align-items-center(titulo="")
-          .col-lg-6.order-lg-1.order-2
-            h5.mb-4 Valor jurídico
-            p.mb-0 Documentos que derivan derechos u obligaciones legales, regulados por el derecho común.
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Valor jurídico
+              p.mb-0 Documentos que derivan derechos u obligaciones legales, regulados por el derecho común.
 
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/temas/tema3/5.png', alt='Imagen decorativa')
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema3/5.png', alt='Imagen decorativa')
 
-        .row.justify-content-center.align-items-center(titulo="")
-          .col-lg-6.order-lg-1.order-2
-            h5.mb-4 Valor legal
-            p.mb-0 Aquel que tienen los documentos que sirven de testimonio ante la ley.
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Valor legal
+              p.mb-0 Aquel que tienen los documentos que sirven de testimonio ante la ley.
 
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/temas/tema3/6.png', alt='Imagen decorativa')
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema3/6.png', alt='Imagen decorativa')
 
-        .row.justify-content-center.align-items-center(titulo="")
-          .col-lg-6.order-lg-1.order-2
-            h5.mb-4 Valor fiscal
-            p.mb-0 Utilidad o aptitud que tienen los documentos para el Tesoro o Hacienda Pública.
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Valor fiscal
+              p.mb-0 Utilidad o aptitud que tienen los documentos para el Tesoro o Hacienda Pública.
 
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/temas/tema3/7.png', alt='Imagen decorativa')
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema3/7.png', alt='Imagen decorativa')
 
-        .row.justify-content-center.align-items-center(titulo="")
-          .col-lg-6.order-lg-1.order-2
-            h5.mb-4 Valor contable
-            p.mb-0 Utilidad o aptitud de los documentos que soportan el conjunto de cuentas, registros de los ingresos y egresos y de los movimientos económicos de una entidad pública
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Valor contable
+              p.mb-0 Utilidad o aptitud de los documentos que soportan el conjunto de cuentas, registros de los ingresos y egresos y de los movimientos económicos de una entidad pública
 
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/temas/tema3/8.png', alt='Imagen decorativa')
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema3/8.png', alt='Imagen decorativa')
 
-        .row.justify-content-center.align-items-center(titulo="")
-          .col-lg-6.order-lg-1.order-2
-            h5.mb-4 Valor secundario
-            p.mb-0 Valor que tienen los documentos para la cultura, la historia y la ciencia. Sirven de referencia para la elaboración o reconstrucción de cualquier actividad de la administración, como fuente primaria para la historia y como testimonio de la memoria colectiva. Son el patrimonio documental de la comunidad que los creó y los utiliza. Algunos documentos nacen con valores permanentes, por las razones arriba citadas y otros alcanzan estos valores como resultado de la valoración.
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Valor secundario
+              p.mb-0 Valor que tienen los documentos para la cultura, la historia y la ciencia. Sirven de referencia para la elaboración o reconstrucción de cualquier actividad de la administración, como fuente primaria para la historia y como testimonio de la memoria colectiva. Son el patrimonio documental de la comunidad que los creó y los utiliza. Algunos documentos nacen con valores permanentes, por las razones arriba citadas y otros alcanzan estos valores como resultado de la valoración.
 
-          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/temas/tema3/9.png', alt='Imagen decorativa')
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema3/9.png', alt='Imagen decorativa')
 
     .titulo.mb-5
       img(src='@/assets/curso/temas/ico.png', alt='Imagen decorativa')
