@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Organización documental
-    p.mb-4(data-aos="fade-left") Es el conjunto de actividades que van encaminadas a clasificar, ordenar y describir los documentos de una entidad, con el fin de subsanar las dificultades producidas por la falta de información, generalmente causada por la pérdida de documentos; esto, como producto de la desorganización, ante la carencia de sistematización en la disposición final de los documentos generados por la institución.
+    p.mb-5(data-aos="fade-left") Es el conjunto de actividades que van encaminadas a clasificar, ordenar y describir los documentos de una entidad, con el fin de subsanar las dificultades producidas por la falta de información, generalmente causada por la pérdida de documentos; esto, como producto de la desorganización, ante la carencia de sistematización en la disposición final de los documentos generados por la institución.
 
     .titulo.mb-5
       img(src='@/assets/curso/temas/ico.png', alt='Imagen decorativa')
@@ -32,15 +32,15 @@
           .row.justify-content-center.mb-4
             .col-xl-4.col-6
               figure
-                img(src='@/assets/curso/temas/tema1/2.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/3.svg', alt='Imagen decorativa')
             
-          h4.text-center a) Un lugar de almacenamiento físico
+          h4.text-center a) Un lugar de almacenamiento físico.
 
         .col-xl.col-md-6.tarjeta.color1.p-5
           .row.justify-content-center.mb-4
             .col-xl-4.col-6
               figure
-                img(src='@/assets/curso/temas/tema1/3.svg', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema1/2.svg', alt='Imagen decorativa')
             
           h4.text-center b) Un fichero informático que recurre a un sistema de soporte.
     
@@ -60,15 +60,12 @@
               img(src='@/assets/curso/temas/tema1/4.svg', alt='Imagen decorativa')
 
           .tarjeta.color-primario.p-3(x="6%" y="43%" numero="+")
-            .h5.mb-2 Archivo público:
             p Conjunto de documentos sistematizados y catalogados en archivos públicos que pertenecen a entidades oficiales — empresas estatales —, igualmente, se consideran como tales, aquellos que se disponen o se materializan por la prestación de un servicio público por entidades privadas.
 
           .tarjeta.color-primario.p-3(x="8%" y="82.5%" numero="+")
-            .h5.mb-2 Archivo privado:
             p Son los documentos generados o producidos por personas naturales o jurídicas de derecho privado.
 
           .tarjeta.color-primario.p-3(x="94%" y="68%" numero="+")
-            .h5.mb-2 Archivo privado de interés público:
             p Son aquellos archivos que, por el valor para la historia, la investigación, la ciencia o la cultura son de interés público, y pronunciado como tal por el legislador.
             
       .col-md-10.col-12.movil
@@ -82,7 +79,7 @@
     p.mb-4(data-aos="fade-left") Para la organización de archivos en una empresa, es necesario conocer primero la estructura orgánica de la entidad; esta estructura organizativa se representa de forma gráfica, expresando la disposición en que se encuentran divididas las dependencias o unidades administrativas, de acuerdo con sus funciones.
     p.mb-4(data-aos="fade-left") A continuación, se detalla un organigrama empresarial:
 
-    .row.justify-content-center.mb-5
+    //- .row.justify-content-center.mb-5
       .col-12(data-aos="flip-up")
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
@@ -96,6 +93,22 @@
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
                 p <b>Descargar.</b> Organigrama de una empresa
+
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-12.desktop
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 1.
+          span <i>Organigrama de una empresa.</i>
+        .row.justify-content-center
+          figure
+            img(src='@/assets/curso/temas/tema1/5.svg', alt='Imagen que contiene un organigrama que ejemplifica la estructura organizacional de una empresa, el cual tiene su respectivo director general, los vicepresidentes de diferentes departamentos y los roles de cada dependencia.')
+      .col-12.movil
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 1.
+          span <i>Organigrama de una empresa.</i>
+        .row.justify-content-center
+        figure
+          img(src='@/assets/curso/temas/tema1/5_.svg', alt='Imagen que contiene un organigrama que ejemplifica la estructura organizacional de una empresa, el cual tiene su respectivo director general, los vicepresidentes de diferentes departamentos y los roles de cada dependencia.')
     
     .titulo.mb-5
       img(src='@/assets/curso/temas/ico.png', alt='Imagen decorativa')
@@ -150,7 +163,7 @@
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10.col-12
         .cajon.cajon1.color-primario.p-4
-          p El presente desarrollo temático hace énfasis en la Ley 1712 de 2014, ya que esta normatividad habla y subraya la transparencia y el derecho que tiene toda persona o institución para acceder a la información.
+          p.mb-0 El presente desarrollo temático hace énfasis en la Ley 1712 de 2014, ya que esta normatividad habla y subraya la transparencia y el derecho que tiene toda persona o institución para acceder a la información.
     p(data-aos="fade-left") Este principio regulador, expresa la obligatoriedad para todas las empresas, de tener los documentos de archivo estructurados y organizados, con el fin de brindar información a quien lo requiera de forma oportuna y veraz.
 
       

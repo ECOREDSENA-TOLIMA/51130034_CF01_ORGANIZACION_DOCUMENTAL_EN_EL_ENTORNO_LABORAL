@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
-      h1 Tabla de Retención Documental
+      h1 Tabla de Retención Documental (TRD)
     p.mb-5(data-aos="fade-left") La Tabla de Retención Documental (TRD), es donde se registra un listado de series documentales con sus correspondientes tipos documentales, a los cuales se les asigna su tiempo de permanencia en las diferentes fases del archivo, ya explicadas: archivo de gestión, archivo central o archivo histórico.
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
@@ -20,14 +20,14 @@
               .bloque-texto-b__texto
                 p.mb-0 Las series documentales están referidas al conjunto de documentos que corresponden al mismo uso administrativo, tienen características similares en su contenido y en algunas ocasiones, similitudes en su aspecto externo.
 
-    .tarjeta.tarjeta1.p-3
+    .tarjeta.tarjeta1.p-4
       .row.justify-content-around.align-items-center
-        .col-lg-1.col-3
-          img(src="@/assets/template/document.svg").img65
+        .col-lg-1.col-md-2.col-3
+          img(src="@/assets/template/folder.svg").img65
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h5.mb-1 Tabla de Retención Documental
+              h5.mb-1 Tabla de Retención Documental (TRD)
               p.text-small.mb-0 Para conocer el formato de la Tabla de Retención Documental, se invita a que acceda y navegue el anexo TRD.
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_TRD_CF1.pdf')" target="_blank")

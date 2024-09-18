@@ -134,6 +134,9 @@
   height: auto
   margin-right: 10px
 
+.bloque-texto-b.color-primario:before
+  background-color: #FFEDC8
+
 
 // pasosb
 .pasos-b__header__item--before .pasos-b__header__item__dot 
@@ -232,6 +235,8 @@
   background-color: #FFEDC8
 .tabs-c__tab
   background-color: #E3E8EF
+.tabs-c__header
+  margin-bottom: 0 !important
 .tabs-c__tab--active
   background-color: #fff
 .tabs-b__tab--active:hover
@@ -255,6 +260,10 @@
     height: 100%
     left: 0
     bottom: -82%
+    @media (max-width: $bp-max-sm)
+        bottom: -79%
+    @media (max-width: $bp-max-xs)
+        bottom: -85%
     i:last-child
       display: none
   &:hover

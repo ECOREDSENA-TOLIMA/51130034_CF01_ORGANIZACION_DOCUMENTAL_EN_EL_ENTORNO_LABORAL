@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Principios archivísticos y Tablas de Retención Documental',
+      'Principios archivísticos y Tablas de Retención Documental (TRD)',
     descripcionCurso:
       'Toda empresa tiene la necesidad de contar con archivos organizados, por lo cual se deben tener claros los principios básicos del archivo, la clasificación documental y su importancia dentro de la organización; además, existe la obligatoriedad de elaborar tablas de retención documental como lo expresa la Ley 594 de 2000, más conocida como Ley General de Archivos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -81,7 +81,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tabla de Retención Documental',
+        titulo: 'Tabla de Retención Documental (TRD)',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -283,6 +283,12 @@ export default {
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
+        {
+          nombre: 'Santiago Lozada Garcés',
+          cargo: 'Líder línea de producción',
+          centro:
+            'Centro Industrial de Mantenimiento Integral -Regional Santander',
+        },
         {
           nombre: 'Carmen Milena Ferreira Ardila',
           cargo: 'Experta temática ',

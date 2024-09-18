@@ -35,20 +35,36 @@
 
     p.mb-5(data-aos="fade-left") Basado en lo anterior, a continuación, se detalla este ciclo vital:
 
+    //- .row.justify-content-center.mb-5(data-aos="flip-up")
+    //-   .col-xl-8.col-12(data-aos="flip-up")
+    //-     .titulo-sexto.color-acento-contenido
+    //-       h5 Figura 4.
+    //-       span <i>Aspectos presentes en los tipos de archivos.</i>
+    //-     figure.desktop
+    //-       img(src='@/assets/curso/temas/tema3/2.svg', alt='Imagen que detalla los aspectos presentes en los tipos de archivos, los cuales parten de los tres tipos existentes, donde el de gestión y central tiene valores primarios y el histórico posee valores secundarios. Además, cada valor tiene respectivos procesos.')
+    //-     .row.movil
+    //-       .col-12
+    //-         a.anexo(:href="obtenerLink('/downloads/Aspectos_presentes_en_los_tipos_de_archivos.pdf')" target="_blank")
+    //-           .anexo__icono
+    //-             img(src="@/assets/template/icono-pdf.svg")
+    //-           .anexo__texto
+    //-             p <b>Descargar.</b> Aspectos presentes en los tipos de archivos
+
     .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-xl-8.col-12(data-aos="flip-up")
+      .col-8.desktop
         .titulo-sexto.color-acento-contenido
           h5 Figura 4.
           span <i>Aspectos presentes en los tipos de archivos.</i>
-        figure.desktop
-          img(src='@/assets/curso/temas/tema3/2.svg', alt='Imagen que detalla los aspectos presentes en los tipos de archivos, los cuales parten de los tres tipos existentes, donde el de gestión y central tiene valores primarios y el histórico posee valores secundarios. Además, cada valor tiene respectivos procesos.')
-        .row.movil
-          .col-12
-            a.anexo(:href="obtenerLink('/downloads/Aspectos_presentes_en_los_tipos_de_archivos.pdf')" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-pdf.svg")
-              .anexo__texto
-                p <b>Descargar.</b> Aspectos presentes en los tipos de archivos
+        .row.justify-content-center
+          figure
+            img(src='@/assets/curso/temas/tema3/2.svg', alt='Imagen que detalla los aspectos presentes en los tipos de archivos, los cuales parten de los tres tipos existentes, donde el de gestión y central tiene valores primarios y el histórico posee valores secundarios. Además, cada valor tiene respectivos procesos.')
+      .col-12.movil
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 4.
+          span <i>Aspectos presentes en los tipos de archivos.</i>
+        .row.justify-content-center
+        figure
+          img(src='@/assets/curso/temas/tema3/2_.svg', alt='Imagen que detalla los aspectos presentes en los tipos de archivos, los cuales parten de los tres tipos existentes, donde el de gestión y central tiene valores primarios y el histórico posee valores secundarios. Además, cada valor tiene respectivos procesos.')
     
     p.mb-5(data-aos="fade-left") Todos los documentos poseen un valor que los identifica, dependiendo de la etapa del ciclo vital en el que se encuentran. Además, los valores primarios se dan en la primera y segunda etapa del ciclo vital, mientras que los valores secundarios corresponden al archivo histórico. De acuerdo con esta valoración, se consideran las siguientes facetas contenidas en los documentos:
 
@@ -75,30 +91,12 @@
 
           .row.justify-content-center.align-items-center(titulo="")
             .col-lg-6.order-lg-1.order-2
-              h5.mb-4 Valor jurídico
-              p.mb-0 Documentos que derivan derechos u obligaciones legales, regulados por el derecho común.
+              h5.mb-4 Valor secundario
+              p.mb-0 Valor que tienen los documentos para la cultura, la historia y la ciencia. Sirven de referencia para la elaboración o reconstrucción de cualquier actividad de la administración, como fuente primaria para la historia y como testimonio de la memoria colectiva. Son el patrimonio documental de la comunidad que los creó y los utiliza. Algunos documentos nacen con valores permanentes, por las razones arriba citadas y otros alcanzan estos valores como resultado de la valoración.
 
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/temas/tema3/5.png', alt='Imagen decorativa')
-
-          .row.justify-content-center.align-items-center(titulo="")
-            .col-lg-6.order-lg-1.order-2
-              h5.mb-4 Valor legal
-              p.mb-0 Aquel que tienen los documentos que sirven de testimonio ante la ley.
-
-            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img(src='@/assets/curso/temas/tema3/6.png', alt='Imagen decorativa')
-
-          .row.justify-content-center.align-items-center(titulo="")
-            .col-lg-6.order-lg-1.order-2
-              h5.mb-4 Valor fiscal
-              p.mb-0 Utilidad o aptitud que tienen los documentos para el Tesoro o Hacienda Pública.
-
-            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-              figure
-                img(src='@/assets/curso/temas/tema3/7.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema3/9.png', alt='Imagen decorativa')
 
           .row.justify-content-center.align-items-center(titulo="")
             .col-lg-6.order-lg-1.order-2
@@ -111,12 +109,38 @@
 
           .row.justify-content-center.align-items-center(titulo="")
             .col-lg-6.order-lg-1.order-2
-              h5.mb-4 Valor secundario
-              p.mb-0 Valor que tienen los documentos para la cultura, la historia y la ciencia. Sirven de referencia para la elaboración o reconstrucción de cualquier actividad de la administración, como fuente primaria para la historia y como testimonio de la memoria colectiva. Son el patrimonio documental de la comunidad que los creó y los utiliza. Algunos documentos nacen con valores permanentes, por las razones arriba citadas y otros alcanzan estos valores como resultado de la valoración.
+              h5.mb-4 Valor fiscal
+              p.mb-0 Utilidad o aptitud que tienen los documentos para el Tesoro o Hacienda Pública.
 
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
-                img(src='@/assets/curso/temas/tema3/9.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema3/7.png', alt='Imagen decorativa')
+
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Valor legal
+              p.mb-0 Aquel que tienen los documentos que sirven de testimonio ante la ley.
+
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema3/6.png', alt='Imagen decorativa')
+
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-6.order-lg-1.order-2
+              h5.mb-4 Valor jurídico
+              p.mb-0 Documentos que derivan derechos u obligaciones legales, regulados por el derecho común.
+
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+              figure
+                img(src='@/assets/curso/temas/tema3/5.png', alt='Imagen decorativa')
+
+          
+
+          
+
+          
+
+          
 
     .titulo.mb-5
       img(src='@/assets/curso/temas/ico.png', alt='Imagen decorativa')

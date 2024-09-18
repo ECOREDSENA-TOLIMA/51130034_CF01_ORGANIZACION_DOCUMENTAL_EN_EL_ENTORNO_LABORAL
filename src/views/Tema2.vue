@@ -31,26 +31,26 @@
       .col-xl-10.col-md-12.mb-5.mb-md-0
         PasosA.color-acento-botones(tipo="n")
           .row.justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
               h5 Primer paso
-              p El primer paso para la clasificación documental, se centra en el reconocimiento de los productores de documentos; es decir: fondo – sección – subsección.
-            .col-md-6
+              p.mb-0 El primer paso para la clasificación documental, se centra en el reconocimiento de los productores de documentos; es decir: fondo – sección – subsección.
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/temas/tema2/2.png', alt='Imagen decorativa')
 
           .row.justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/temas/tema2/3.png', alt='Imagen decorativa')
-            .col-md-6
+            .col-lg-6(data-aos="fade-left")
               h5 Segundo paso
-              p El segundo paso, corresponde a la identificación de la estructura orgánica: conocer la jerarquía de la empresa, para determinar cuál de las dependencias pertenecen al nivel directivo y cuál al subalterno.
+              p.mb-0 El segundo paso, corresponde a la identificación de la estructura orgánica: conocer la jerarquía de la empresa, para determinar cuál de las dependencias pertenecen al nivel directivo y cuál al subalterno.
 
           .row.justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
               h5 Tercer paso
-              p El tercer paso, identifica las series y asuntos documentales; estas series documentales resultan de las funciones y actividades desarrolladas por las dependencias, para el cumplimiento de los objetivos.
-            .col-md-6
+              p.mb-0 El tercer paso, identifica las series y asuntos documentales; estas series documentales resultan de las funciones y actividades desarrolladas por las dependencias, para el cumplimiento de los objetivos.
+            .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/temas/tema2/4.png', alt='Imagen decorativa')
     
@@ -63,7 +63,7 @@
 
     .container.BG01.px-4.px-md-5.pt-4(data-aos="flip-up")
       .row.justify-content-center 
-        .col-xl-4.col-lg-8.col-12.mb-3.p-4
+        .col-xl-4.col-lg-6.col-8.mb-3.p-4
           figure
             img(src='@/assets/curso/temas/tema2/5.svg', alt='Imagen decorativa')
         .col-xl-6.col-12.mb-3.p-4
@@ -109,7 +109,7 @@
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema2/8.svg' alt="Imagen decorativa")
           .tarjetas-up_card.BG02.p-xl-6.p-lg-2.p-sm-4.px-3
-            .title.d-flex.align-items-center.justify-content-center.text-white.mb-3
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
               span
                 i.fas.fa-caret-up.fa-2x.me-3
                 i.fas.fa-caret-down.fa-2x.me-3
@@ -126,19 +126,19 @@
                 i.fas.fa-caret-up.fa-2x.me-3
                 i.fas.fa-caret-down.fa-2x.me-3
               h4.mb-0 Segundo dígito
-            p.text-white.text-center.mb-0 Secretaria.
+            p.text-white.text-center.mb-0 Secretaría.
 
       .col-lg-4.col-md-11.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema2/10.svg' alt="Imagen decorativa")
           .tarjetas-up_card.BG02.p-xl-6.p-lg-2.p-sm-4.px-3
-            .title.d-flex.align-items-center.justify-content-center.text-white.mb-3
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
               span
                 i.fas.fa-caret-up.fa-2x.me-3
                 i.fas.fa-caret-down.fa-2x.me-3
               h4.mb-0 Tercer dígito
-            p.text-white.text-center.mb-0 Oficinas que dependen de la secretaria.
+            p.text-white.text-center.mb-0 Oficinas que dependen de la secretaría.
     
     p.mb-4(data-aos="fade-left") El código alfanumérico que se asigne, será con la sigla que identifique la dependencia, seguido del número que le asignen a cada serie.
     p.mb-5(data-aos="fade-left") En el cuadro de clasificación se distinguen dos niveles, el primero está conformado por la estructura orgánica de la empresa, como son la secciones y subsecciones; el segundo, está conformado por las series y subseries documentales.
