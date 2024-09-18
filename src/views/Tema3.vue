@@ -119,7 +119,7 @@
           .row.justify-content-center.align-items-center(titulo="")
             .col-lg-6.order-lg-1.order-2
               h5.mb-4 Valor contable
-              p.mb-0 Utilidad o aptitud de los documentos que soportan el conjunto de cuentas, registros de los ingresos y egresos y de los movimientos económicos de una entidad pública
+              p.mb-0 Utilidad o aptitud de los documentos que soportan el conjunto de cuentas, registros de los ingresos y egresos y de los movimientos económicos de una entidad pública.
 
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
