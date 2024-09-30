@@ -255,7 +255,7 @@ export default {
       referencia:
         'Julia, G. y López Ávila, M. I. (2001). Cartilla de Clasificación Documental. Bogotá: Archivo General de la Nación.',
       link:
-        'https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/5_Consulte/Recursos/Publicacionees/Minimanual_TRD.pdf',
+        'https://www.archivogeneral.gov.co/caja_de_herramientas/docs/5.%20organizacion/MANUALES/CLASIFICACION%20DOCUMENTAL.pdf',
     },
     {
       referencia:

@@ -121,7 +121,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/10.png", alt="Imagen decorativa")
           .col-lg-6.col-12.mb-3
-            p.mb-3 Básicamente es una labor intelectual, en donde se dispone de un elemento, con el objetivo de ordenarlo mediante el apoyo de un sistema esquemático, de un plan o de un marco previamente definido, el cual se trasforma en referente para la clasificación documental; haciendo referencia a la clasificación fundamentada en operaciones técnicas y administrativas, encargadas de realizar una agrupación documental, establecida de forma jerárquica, de manera que resulte factible conservar y recuperar la información.
+            p.mb-3 Básicamente es una labor intelectual, en donde se dispone de un elemento, con el objetivo de ordenarlo mediante el apoyo de un sistema esquemático, de un plan o de un marco previamente definido, el cual se transforma en referente para la clasificación documental; haciendo referencia a la clasificación fundamentada en operaciones técnicas y administrativas, encargadas de realizar una agrupación documental, establecida de forma jerárquica, de manera que resulte factible conservar y recuperar la información.
             p.mb-0 Las agrupaciones documentales generan documentos desde una unidad administrativa — en ejercicio de sus funciones — las cuales, según el organigrama, dan origen a los fondos documentales, las secciones y las subsecciones:
       
     .row.justify-content-center.mb-5(data-aos="flip-up")

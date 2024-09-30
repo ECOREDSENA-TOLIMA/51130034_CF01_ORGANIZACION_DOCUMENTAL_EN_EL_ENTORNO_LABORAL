@@ -163,7 +163,7 @@
         .row.justify-content-center.align-items-center.my-lg-4
           .col-lg-6.order-lg-1.order-2
             h4 Archivo histórico
-            p Los documentos del archivo histórico son aquellos que, por su valor para la investigación, la ciencia y la cultura, son de conservación permanente. El archivo histórico dentro de sus funciones tiene la de custodiar y conservar dichos documentos.
+            p Los documentos del archivo histórico son aquellos que, por su valor para la investigación, la ciencia y la cultura, son de conservación permanente. El archivo histórico, dentro de sus funciones, tiene la de custodiar y conservar dichos documentos.
 
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
